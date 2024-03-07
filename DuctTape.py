@@ -26,4 +26,4 @@ areaDoor = (len* width)*2
 rollTapeArea = (2/12)*60
 numberRolls = math.ceil(areaDoor/ rollTapeArea)
 
-print(numberRolls
+print(numberRolls)
