@@ -30,9 +30,9 @@ dateTwo= input().replace(",","").split(" ")
 
 for i in range(12):
  if dateOne[0] == months[i]:
-  dateOne[0] = i
+  dateOne[0] = i + 1
  if dateTwo[0] == months[i]:
-  dateTwo[0] = i
+  dateTwo[0] = i + 1
 
 dateOne[1]= int(dateOne[1])
 dateOne[2]= int(dateOne[2])
